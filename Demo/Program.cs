@@ -70,6 +70,24 @@ namespace Demo
             //--------------------------------------------------------------------------------//
 
 
+            ////3. Produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.
+
+            //var productInfo = ListGenerator.ProductList.Select(p => new
+            //{
+            //    p.ProductName,
+            //    Price = p.UnitPrice,  
+            //    p.UnitsInStock
+            //});
+
+            //// Print results
+            //foreach (var item in productInfo)
+            //{
+            //    Console.WriteLine($"Product: {item.ProductName}, Price: {item.Price}, Stock: {item.UnitsInStock}");
+            //}
+
+
+            //--------------------------------------------------------------------------------//
+
 
 
             #endregion
