@@ -128,7 +128,22 @@ namespace Demo
 
             //--------------------------------------------------------------------------------//
 
-        
+            ////6. Select all orders where the order total is less than 500.00.
+
+
+            //List<Order> orders = ListGenerator.CustomerList
+            //    .SelectMany(C => C.Orders)
+            //    .Where(O => O.Total < 500)
+            //    .ToList();
+
+
+            //foreach (var order in orders)
+            //{
+            //    Console.WriteLine($"Total: {order.Total}");
+            //}
+         
+
+
 
 
             #endregion
