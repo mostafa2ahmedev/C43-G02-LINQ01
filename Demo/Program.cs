@@ -89,6 +89,27 @@ namespace Demo
             //--------------------------------------------------------------------------------//
 
 
+            ////4. Determine if the value of ints in an array match their position in the array.
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var result = Arr.Select((num, index) => new
+            //{
+            //    Number = num,
+            //    Position = num == index
+            //});
+
+            //// Print results
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.Number}: {item.Position}");
+            //}
+
+
+            //--------------------------------------------------------------------------------//
+
+
+         
 
             #endregion
 
