@@ -50,6 +50,26 @@ namespace Demo
             //}
 
 
+            //--------------------------------------------------------------------------------//
+
+            //2. Produce a sequence of the uppercase and lowercase versions of each word in the original array (Anonymous Types).
+
+            //string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+
+            //var wordss = words.Select(word => new
+            //{
+            //    Upper = word.ToUpper(),
+            //    Lower = word.ToLower()
+            //});
+
+            //foreach (var item in wordss)
+            //{
+            //    Console.WriteLine($"Upper: {item.Upper}, Lower: {item.Lower}");
+            //}
+
+            //--------------------------------------------------------------------------------//
+
+
 
 
             #endregion
