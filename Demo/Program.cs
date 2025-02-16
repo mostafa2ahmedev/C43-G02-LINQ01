@@ -39,6 +39,22 @@ namespace Demo
 
             #endregion
 
+            #region LINQ - Restriction Operators
+
+            //1. Return a sequence of just the names of a list of products.
+
+            //var productNames = ListGenerator.ProductList.Select(p => p.ProductName);
+            //foreach (var product in productNames)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+
+
+
+            #endregion
+
+
 
 
         }
