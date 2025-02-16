@@ -141,7 +141,21 @@ namespace Demo
             //{
             //    Console.WriteLine($"Total: {order.Total}");
             //}
-         
+
+            //--------------------------------------------------------------------------------//
+
+            ////7. Select all orders where the order was made in 1998 or later.
+
+            //List<Order> recentOrders = ListGenerator.CustomerList
+            // .SelectMany(C => C.Orders)
+            // .Where(O => O.OrderDate.Year >= 1998)  
+            // .ToList();
+
+
+            //foreach (var order in recentOrders)
+            //{
+            //    Console.WriteLine($"Order ID: {order.OrderID}, Date: {order.OrderDate}");
+            //}
 
 
 
